@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento Aky</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+    html, body {
+        margin: 0;
+    }
+    body {
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #033F4A;
+    }
+    table tr:nth-child(odd) {
+        background-color: #9bcdd6;
+    }    
+    table tr:hover td {
+        background-color: #3a6a72;
+        color: white
+    }
+    .wrapper {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        background-color: aquamarine;
+    }
+    .main {
+        display: flex;
+        flex-flow: column;
+        width: 85%;
+    }
+    .menu {
+        width: 15%;
+        background-color: #9bcdd6;
+        padding: 10px 20px 0px;
+    }
+    .header {
+        background-color: rgb(5, 108, 108);
+        min-height: 150px;
+    }
+    .content {
+        background-color: white;
+        min-height: 300px;
+        padding: 70px;
+    }
+    .footer {
+        background-color: rgb(99, 56, 240);
+        min-height: 150px;
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">                    
+            <ul>
+                <li><a href="home.html"><button><b><i>HOME</i></b></button></a></li>
+                <li><a href="sobre.html"><button><b><i>SOBRE</i></b></button></a></li>
+                <li><a href="atendimento.html"><button><b><i>ATENDIMENTO</i></b></button></a></li>
+                <li><a href="contato.html"><button><b><i>CONTATO</i></b></button></a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <img src="med3.png">
+            </div>
+    
+            <div class="content">
+                <h3>
+                    Aqui está a tabela de preços para consultas. Para demais procedimentos, porgentileza, entre em contato diretamente com a secretaria.
+                </h3>
+                <table summary="Tabela referente aos valores cobrados nas consultas das especialidades médicas em diferentes dias da semana" width="750" height="200">
+                    <tr align="center">
+                        <th><b>ESPECIALIDADE</b></th>
+                        <th>SEG-SEX</th>
+                        <th>SÁB-DOM</th>
+                        <th>FERIADOS</th>
+                    </tr>
+                    <tr align="center">
+                        <td><b>CLÍNICA GERAL</b></td>
+                        <td>250,00</td>
+                        <td>300,00</td>
+                        <td>330,00</td> 
+                    </tr>
+                    <tr align="center">
+                        <td><b>PEDIATRIA</b></td>
+                        <td>320,00</td>
+                        <td>360,00</td>
+                        <td>400,00</td>
+                    </tr>
+                    <tr align="center">                        
+                        <td><b>GERONTOLOGIA</b></td>
+                        <td>300,00</td>
+                        <td>340,00</td>
+                        <td>390,00</td>
+                    </tr>
+                    <tr align="center">
+                        <td><b>ORTOPEDIA</b></td>                       
+                        <td>250,00</td>
+                        <td>300,00</td>
+                        <td>320,00</td>
+                    </tr>
+                    <tr align="center">
+                        <td><b>CARDIOLOGIA</b></td>                       
+                        <td>300,00</td>
+                        <td>340,00</td>
+                        <td>390,00</td>
+                    </tr>
+                </table>
+            </div>    
+            <div class="footer">
+                <img src="medfoot.png">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
